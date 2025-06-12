@@ -1,7 +1,30 @@
 body {
-  background-color: rgb(244, 248, 236);
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+.links {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+img {
+  border-radius: 5px;
+}
+.croissant-img {
+  display: flex;
+  justify-content: center;
 }
